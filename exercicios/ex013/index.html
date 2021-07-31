@@ -8,9 +8,12 @@
 </head>
 <body>
     <h1>Imagens que se alteram em conforme o tamanho da tela</h1>
+    <p>Tente aumentar e diminuir o tamanho da página.</p>
     <picture>
-        <source media="">
-        <img src="fotos/imagem grande.jpg" alt="Imagem grande">
+        <source media="(max-width: 750px)" srcset="fotos/pequeno.jpg" type="image/jpg">
+        <source media="(max-width: 900px)" srcset="fotos/medio.jpg" type="image/jpg">
+        <img src="fotos/grande.jpg" alt="Imagem grande">
     </picture>
+    
 </body>
 </html>

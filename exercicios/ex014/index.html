@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    <h1>Como colocar audio no html?
+    </h1>
+    <h2>Simples</h2>
+    <p>Só nescessita, de usarmos a tag "audio".</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audio/Nine Lives - Unicorn Heads.mp3" type="audio/mpeg">
+        <source src="audio/Nine Lives - Unicorn Heads.ogg" type="audio/ogg">
+        <source src="audio/Nine Lives - Unicorn Heads.wav" type="audio/wax">
+        <p>Seu navegador não suporta audio, segue link para <a href="audio/Nine Lives - Unicorn Heads.mp3" download="Nine Lives" type="audio/mpeg">download</a>.</p>
+    </audio>
+    <!-- (MP3, OGG, WAV) SÃO OS FORMATOS DE AUDIO PARA ABRANGER O MAXIMO DE NAVEGADORES.-->
+    <h1>É os videos?</h1>
+    <h2>Ta ai, tag <em>video</em></h2>
+    <p>Esse video está no meu proprio servidor</p>
+    <!--(WEBM, OGG,MP4), são formatos de videos.-->
+    <video width="300" poster="imagem/pequeno.jpg" controls autoplay loop>
+        <source src="videos/Videomp4-1.webm" type="video/webm">
+        <source src="videos/videowebm.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com videos.</p>
+    </video>
+    <h2>Hospedagem externa:</h2>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/lBf7nMhskEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
