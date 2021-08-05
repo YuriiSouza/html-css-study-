@@ -2,16 +2,15 @@
 /*alo*/
 
 body{
-    background-color:hsla(269, 44%, 27%, 0.24);
+    background-color:hsl(269, 43%, 27%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font: size 12px;
     color: rgb(197, 197, 197);
 }
 
 h1{
-    color: rgb(blue, green, blue);
+    color:#2222ac;
 }
-
-p{
-    caret-color: ;
+h2{
+    background-color:#015215; color:white;
 }
