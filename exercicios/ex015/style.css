@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /*alo*/
 
+
 body{
-    background-color:hsl(269, 43%, 27%);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font: size 12px;
-    color: rgb(197, 197, 197);
+font-family: 'Times New Roman', Times, serif;
+background-image: radial-gradient(circle, yellow , red, blue, pink, orange);
+color: black;
 }
 
 h1{
